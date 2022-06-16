@@ -28,7 +28,7 @@ const Input = ({ addTask }) => {
         <form onSubmit={handleSubmit}>
             
             <input id="input" value={userInput} type="text" onChange={handleChange} placeholder="Pon tu tarea aca" className="text-2xl font-light text-center border-2 border-gray-200 rounded mr-8  mb-20 bg-white-light w-6/12 pt-1"/>
-            <button className="bg-lime-500 border-teal-darkest border-2 w-16 rounded-md text-2xl hover:shadow-md pt-1 "><i class="fas fa-plus"></i></button>
+            <button className="bg-lime-500 border-teal-darkest border-2 w-16 rounded-md text-2xl hover:shadow-md pt-1 "><i class="fa fa-plus" >Add</i></button>
         </form>
     );
 };
