@@ -1,0 +1,138 @@
+/*añadiendo las extensiones de tailwind a nuestro index.css para darle nuestro diseño*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*Importamos google fonts para darle diseño*/
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+/*damos diseño al titulo*/
+h1{
+    font-family: 'Roboot', cursive;
+    color: #00701A;
+    
+}
+
+/*damos diseños al input*/
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*establecemos un diseño de fondo*/
+body{
+    background: #F3F3F3;
+}
+
+/*Con esto dejamos un espacion entre cada tarea*/
+.task{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+
+#indications{
+    background-color: #3746b3;
+    color: whitesmoke;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+#todo{
+    background-color: #E1E1E1;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+@media (max-width: 1091px){
+    #indications{
+        margin: 0.2rem;
+        border-radius: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 0.5rem;
+        padding: 0.2rem;
+    }  
+    .task{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        margin: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 20px;
+    }
+    #todo{
+        margin: 0.2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+    }
+
+}
+@media (max-width: 768px){
+    #indications{
+        margin: 0.2rem;
+        border-radius: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 0.5rem;
+        padding: 0.2rem;
+    }  
+    .task{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        margin: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 20px;
+    }
+    #todo{
+        margin: 0.2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+    }
+
+}
+@media (max-width: 450px){
+    #container{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    form{
+        margin-bottom: -3rem;
+    }
+    .text-8xl {
+        font-size: 3rem;
+    }
+    #input{
+        font-size: 15px;
+    }
+    #indications{
+        font-size: 12px;
+        margin: 0.1rem;
+        border-radius: 0.1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.1rem;
+        padding: 0.5rem;
+    }  
+    .task{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        margin: 0.2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 15px;
+    }
+    #todo{
+        margin: 0.2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+
+}
+

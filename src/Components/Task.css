@@ -1,0 +1,13 @@
+/*Con task hacemos que el mouse tome una forma de pointer a la hora de ubicarse arriba de las tareas*/
+/*Mandamos a llamar a nuestro id completed, al cual le damos diseño para tachar y opacar la tarea cuando se da por hecha*/
+
+.task {
+    cursor: pointer;
+    background-color: #707070;
+    color: white;
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.2;
+    background-color: rgb(244, 3, 3);
+  } 
